@@ -1,0 +1,135 @@
+body{
+	background-color: #F83D57 ;
+	width: 700px;
+	height: 700px;
+	animation: bdy;
+	animation-duration: 20s;
+	
+}
+
+
+
+@keyframes bdy{
+	
+	
+		  10%   {top: 0px; left: 0px; background: red;}
+			  25%  {background: #E594B6;}
+			  40%  {background: #FF8000;}
+			  55%  {background: #D98880;}
+			  70% {background:  #C70039 ;}
+			  85% {background:  #900C3F;}
+			  100% {background: #FF5733;}
+	
+	
+	
+	
+	
+}
+
+.atb_mng1{
+	
+	width: 1300px;
+	height: 50px;
+	background-color: #FA5B3F ;
+	border-radius: 20px;
+	position: absolute;
+	//position: relative;
+	left: 0px;
+	top: 55px;
+	
+	
+	
+}
+
+.attribute1 {
+	width: 100px;
+	height: 100px;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  color: #F4D03F;
+  padding: 15px 32px;
+  text-align: center;
+  //display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.atb_mng2{
+	
+	width: 1300px;
+	height: 50px;
+	background-color: #FA5B3F ;
+	border-radius: 20px;
+	position: absolute;
+	//position: relative;
+	left: 0px;
+	top: 55px;
+	
+	
+	
+}
+
+.attribute2 {
+	width: 100px;
+	height: 100px;
+  background-color: #4CAF50;
+  border-radius: 50px;
+  color: #F4D03F;
+  padding: 15px 32px;
+  text-align: center;
+  //display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+.box_one{
+	width: 800px;
+	height: 400px;
+	background-color: #FA5B3F ;
+	border-radius: 20px;
+	position: absolute;
+	//position: relative;
+	left: 250px;
+	top: 200px;
+	animation: cycle;
+	animation-duration: 20s;
+
+	
+}
+
+.box_two{
+	float:left;
+	width: 650px;
+	height: 120px;
+	background-color:#FF5733  ;
+	border-radius: 20px;
+	//position: absolute;
+	position: relative;
+	left: 80px;
+	top: 140px;
+	text-align:center;
+	
+	
+}
+
+
+
+@keyframes cycle{
+	
+	
+			  10%  {top: 0px; left: 0px; background: red;}
+			  25%  {top:  0px; left: 485px; background: #900C3F;}
+			  40%  {top: 290px; left: 485px; background: yellow;}
+			  55%  {top: 290px; left: 0px; background: green;}
+			  70%  {top: 0px; left: 0px; background: red;}
+			  85%  {top: 0px; left:250; background: red;}
+			  100% {top: 180px; left:250; background: red;}
+	
+	
+	
+	
+	
+}

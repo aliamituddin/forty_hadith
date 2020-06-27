@@ -17,7 +17,7 @@ $db_name='mofliuhehoatrusq';
    					die('Database selection fail'.mysqli_error($connection));
    				}
    }else{
-         echo($db_name.$password.$user_name);
+         echo($db_name."<br>".$password."<br>".$user_name);
    		die('database connection failed'.mysqli_error($connection));
    }
 

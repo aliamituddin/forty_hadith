@@ -3,7 +3,7 @@
 $host_name='pqxt96p7ysz6rn1f.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
 $user_name='khmvvjvn2a6mvsql';
 $password='wkb21fytpf7lv0bt';
-$db_name='	mofliuhehoatrusq';
+$db_name='mofliuhehoatrusq';
 
    $connection=mysqli_connect($host_name,$user_name,$password);
    if ($connection) {

@@ -3,7 +3,7 @@
 $host_name='localhost';
 $user_name='root';
 $password='SamSungS6Edge';
-$db_name='hadith';
+$db_name='db_hadith';
 
    $connection=mysqli_connect($host_name,$user_name,$password);
    if ($connection) {

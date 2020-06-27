@@ -18,7 +18,7 @@ $db_name='db_hadith';
    				}
    }else{
 
-   		die('database connection faillllllll'.mysqli_error($connection));
+   		die('database connection failed'.mysqli_error($connection));
    }
 
 

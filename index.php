@@ -54,7 +54,7 @@
 <div class="atb_mng1">
 
 
-<a href="hadith_1.php" class="attribute1"> Hadith:1</a>
+<a href="index.php" class="attribute1"> Hadith:1</a>
 <a href="hadith_2.php" class="attribute2"> Hadith:2</a>
 <a href="hadith_3.php" class="attribute2"> Hadith:3</a>
 </div>
